@@ -1,48 +1,24 @@
 {
 	"songs": [
-		[
-			"Wistfulness",
-			"face",
-			[
-				82,
-				89,
-				81
-			]
-		],
-		[
-			"Dejection",
-			"dad",
-			[
-				82,
-				89,
-				81
-			]
-		],
-		[
-			"Unknown Suffering",
-			"mouse",
-			[
-				82,
-				89,
-				81
-			]
-		]
+		["Wistfulness", "face", [0, 0 , 0]],
+		["Dejection", "dad", [0, 0 , 0]],
+		["Unknown Suffering", "Mouse", [0, 0 , 0]]
+		["battered", "Mouse", [0, 0 , 0]]
 	],
-	"hideFreeplay": false,
-	"weekBackground": "suicide",
+
 	"weekCharacters": [
 		"dad",
 		"bf",
 		"gf"
 	],
-	"storyName": "Is Suicide Really the Best Option...?",
-	"weekName": "Custom Week",
-	"freeplayColor": [
-		146,
-		113,
-		253
-	],
+	"weekBackground": "stage",
+
+	"storyName": "",
+	"weekBefore": "week1",
+	"weekName": "Week s",
+	"startUnlocked": true,
+
 	"hideStoryMode": false,
-	"weekBefore": "tutorial",
-	"startUnlocked": true
+	"hideFreeplay": false
 }
+
