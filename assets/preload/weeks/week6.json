@@ -1,22 +1,22 @@
 {
 	"songs": [
-		["Senpai", "senpai-pixel", [255, 120, 191]],
-		["Roses", "senpai-pixel", [255, 120, 191]],
-		["Thorns", "spirit-pixel", [255, 120, 191]]
+		["Wistfulness", "dad", [5, 0, 1]],
+		["Dejection", "dad", [5, 0, 1]],
+		["Unknown Suffering", "dad", [5, 0, 191]]
 	],
 
 	"weekCharacters": [
-		"senpai",
+		"dad",
 		"bf",
 		"gf"
 	],
-	"weekBackground": "school",
+	"weekBackground": "stage",
 
-	"storyName": "hating simulator ft. moawling",
+	"storyName": "Port by alanm31",
 	"weekBefore": "week5",
 	"weekName": "Week 6",
 	"startUnlocked": true,
 
-	"hideStoryMode": true,
-	"hideFreeplay": true
+	"hideStoryMode": false,
+	"hideFreeplay": false
 }
