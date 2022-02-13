@@ -394,7 +394,7 @@ class PlayState extends MusicBeatState
 					add(stageCurtains);
 				}
 				
-			case 'stage': //Week S
+			case 'stage': //Week 0
 
 				var Destruido:BGSprite = new BGSprite('Destruido', -600, -200, 0.9, 0.9);
 
