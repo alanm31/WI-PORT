@@ -2,7 +2,7 @@ package;
 
 #if desktop
 import Discord.DiscordClient;
-#end
+q#end
 import Section.SwagSection;
 import Song.SwagSong;
 import WiggleEffect.WiggleEffectType;
@@ -393,7 +393,13 @@ class PlayState extends MusicBeatState
 					stageCurtains.updateHitbox();
 					add(stageCurtains);
 				}
+				
+			case 'stage': //Week S
 
+				var Destruido:BGSprite = new BGSprite('Destruido', -600, -200, 0.9, 0.9);
+
+				add(Destruido);
+				
 			case 'spooky': //Week 2
 				if(!ClientPrefs.lowQuality) {
 					halloweenBG = new BGSprite('halloween_bg', -200, -100, ['halloweem bg0', 'halloweem bg lightning strike']);
