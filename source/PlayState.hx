@@ -396,9 +396,9 @@ class PlayState extends MusicBeatState
 				
 			case 'stage': //tutorial
 
-				var Destruido:BGSprite = new BGSprite('Destruido', -600, -200, 0.9, 0.9);
+				var Vecindariobg:BGSprite = new BGSprite('Vecindariobg', -600, -200, 0.9, 0.9);
 
-				add(Destruido);
+				add(Vecindariobg);
 				
 			case 'spooky': //Week 2
 				if(!ClientPrefs.lowQuality) {
